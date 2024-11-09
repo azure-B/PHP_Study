@@ -1,0 +1,20 @@
+/*
+"This CSS file contains common styles for the entire page."
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*
+"Collection of common CSS."
+*/
+
+.flex-center {
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+}

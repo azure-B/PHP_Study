@@ -1,0 +1,58 @@
+/*
+"This CSS file is for the index/login/logout screens."
+*/
+
+body.locked {
+    overflow: hidden; /* 스크롤 비활성화 */
+}
+
+
+
+header {
+/*
+"The header is responsible for the section where the logo will be placed, and if there are any additional items besides the logo, you can add the content within a div."
+*/
+
+    display: flex;
+    
+    padding: 0 1vw;
+    
+    background-color: beige;
+    height: 10vh;
+
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+main {
+
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 90vh;
+    background-color: aqua;
+
+}
+
+
+
+/*
+class css
+*/
+
+.logo_group {
+    background-color: darkcyan;
+}
+
+.sign_in_group {
+    background-color: black;
+}
+
+.sign_up_group {
+    background-color: brown;
+}
