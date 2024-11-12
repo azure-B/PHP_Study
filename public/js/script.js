@@ -55,7 +55,10 @@ function Load_data() {
             $("#Lists").empty();
 
             res.Data.forEach(items => {
-                console.log(items);
+                const Lists = document.getElementById('Lists');
+                Lists.innerHTML += `<p>${items.Title} - ${items.Content} 
+                <button onclick="deleteUser(${items.id})">Delete</button>
+                <button onclick="updateUser(${items.id}, '${items.name}', '${items.email}')">Edit</button></p>`;
             });
         },
 
